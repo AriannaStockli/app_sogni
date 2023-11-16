@@ -20,12 +20,11 @@
   -->
 
   <div class="container">
-    <header>
-        <h1>Hi Arianna</h1>
-        <div id="profile">A</div>
-    </header>
 
     <div id="clock">10:00</div>
+
+    <button id="stopButton" onclick="stopSound()">Interrompi</button>
+    <audio id="alarmSound" src="alarm.mp3"></audio>
 
     <footer class="bottom-navigation">
         <nav>
@@ -40,6 +39,22 @@
   <script src="app.js"></script>
 
 <script>
+    let alarmSound = document.getElementById('alarmSound');
+    let stopButton = document.getElementById('stopButton');
+
+    function stopSound() {
+    // interrompi audio
+    alarmSound.pause();
+    alarmSound.currentTime = 0;
+    alert('Hai interrotto la sveglia!');
+
+    };
+
+    // ritarda l'inizio della sveglia di tre secondi
+    setTimeout(function() {
+    alarmSound.play();
+    }, 3000);
+
     // Aggiungi qui il tuo codice JavaScript
     document.addEventListener("DOMContentLoaded", function() {
     // Chiamato quando il DOM è pronto
