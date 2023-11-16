@@ -117,24 +117,31 @@ textarea {
     text-align: center;
     height: 70px;
     line-height: 70px;
-  }
+}
   
-  .bottom-navigation nav ul {
+.bottom-navigation nav ul {
     list-style-type: none;
     margin: 0;
     padding: 0;
-  }
+}
   
-  .bottom-navigation nav li {
+.bottom-navigation nav li {
     display: inline;
     margin-right: 20px;
-  }
+}
   
-  .bottom-navigation a {
+.bottom-navigation a {
     color: white;
     text-decoration: none;
-  }
+}
   
-  .bottom-navigation a:hover {
+.bottom-navigation a:hover {
     border-bottom: 1px solid white;
-  }
+}
+
+/* Stile sveglia */
+#clock {
+    font-size: 100px;
+    font-weight: bold;
+    margin-bottom: 20px;
+}   

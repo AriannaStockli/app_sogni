@@ -25,6 +25,8 @@
         <div id="profile">A</div>
     </header>
 
+    <div id="clock">10:00</div>
+
     <footer class="bottom-navigation">
         <nav>
             <ul>
@@ -36,6 +38,33 @@
 </div>
   
   <script src="app.js"></script>
-</body>
 
+<script>
+    // Aggiungi qui il tuo codice JavaScript
+    document.addEventListener("DOMContentLoaded", function() {
+    // Chiamato quando il DOM è pronto
+    updateClock(); // Imposta l'orario iniziale
+
+    // Aggiorna l'orario ogni secondo
+    setInterval(updateClock, 1000);
+    });
+
+function updateClock() {
+    var now = new Date();
+    var hours = now.getHours();
+    var minutes = now.getMinutes();
+
+    // Formatta l'orario come "HH:MM"
+    var formattedTime = padZero(hours) + ":" + padZero(minutes);
+
+    document.getElementById("clock").innerText = formattedTime;
+}
+
+function padZero(number) {
+    return (number < 10) ? "0" + number : number;
+}
+
+</script>
+
+</body>
 </html>
