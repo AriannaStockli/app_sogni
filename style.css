@@ -28,7 +28,7 @@ h3{
     font-size: 14px;
 }
 
-.container {
+#container {
     position: relative;
     width: 375px;
     height: 634px;
@@ -63,8 +63,9 @@ header {
     -webkit-backdrop-filter: blur(13px);
     border: 1px solid rgba(255, 255, 255, 0.19);
     border-radius: 10px;
-    margin: 10px;
     padding: 5px;
+    margin-bottom: 10px;
+    margin-left: 10px;
 }
 
 .duration {
@@ -79,18 +80,25 @@ header {
     border-radius: 20px;
 }
 
-.pulsante{
+button.pulsante{
     width: 355px;
+    background: rgba(255, 255, 255, 0.11);
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(13px);
+    -webkit-backdrop-filter: blur(13px);
+    border: 1px solid rgba(255, 255, 255, 0.19);
     font-family: "roc-grotesk", sans-serif;
-    background-color: white;
     padding: 10px;
     margin-left: 10px;
-    margin-bottom: 25px;
-    font-size: 16px;
-    color: black;
-    border: none;
+    margin-top: 6px;
     cursor: pointer;
     border-radius: 20px;
+}
+
+button.pulsante a{
+    color: #fff;
+    text-decoration: none;
+    font-size: 16px;
 }
 
 textarea {
@@ -152,11 +160,18 @@ textarea {
 }   
 
 #stopButton {
-    padding: 10px 20px;
-    font-size: 16px;
-    background-color: black;
-    color: white;
-    border: none;
+    width: 355px;
+    background: rgba(255, 255, 255, 0.11);
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(13px);
+    -webkit-backdrop-filter: blur(13px);
+    border: 1px solid rgba(255, 255, 255, 0.19);
+    font-family: "roc-grotesk", sans-serif;
+    padding: 10px;
+    margin-left: 10px;
+    margin-top: 6px;
     cursor: pointer;
     border-radius: 20px;
+    color: #fff;
+    font-size: 16px;
 }
