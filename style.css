@@ -31,7 +31,8 @@ h3{
 .container {
     width: 375px;
     height: 812px;
-    background-image: url('../img/background.png');
+    /* background-image: url('../img/background.png'); */
+    background-color: blue;
     background-repeat: no-repeat;
     padding-top: 40px;
 }
