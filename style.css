@@ -32,10 +32,7 @@ h3{
     position: relative;
     width: 375px;
     height: 634px;
-    /* background-image: url('../img/background_2.png'); */
-    /* background-color: rgb(19, 0, 192); */
-    background: rgb(34,59,195);
-    background: linear-gradient(0deg, rgba(34,59,195) 0%, rgba(45,253,216,1) 100%);
+    background-image: url('../img/background_2.png');
     background-repeat: no-repeat;
     padding-top: 40px;
 }
