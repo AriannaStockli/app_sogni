@@ -14,11 +14,12 @@ body {
 h1 {
     margin: 10px;
     margin-top: 30px;
+    font-size: 35px;
 }
 
 h2{
     font-size: 16px;
-    margin-bottom: 30px;
+    margin-bottom: 20px;
 }
 
 h3{
@@ -32,7 +33,7 @@ h3{
     position: relative;
     width: 375px;
     height: 634px;
-    background-image: url('img/background_2.png');
+    background-image: url('img/img.png');
     background-repeat: no-repeat;
     padding-top: 40px;
 }
@@ -49,14 +50,14 @@ header {
     height: 40px;
     line-height:40px;
     text-align: center;
-    background-color: rgb(210, 210, 210);
+    background-color: rgb(0, 0, 0);
     border-radius: 20px;
     margin-right: 10px;
 }
 
 .card {
     width: 345px;
-    background: rgba(255, 255, 255, 0.11);
+    background: rgba(255, 255, 255, 0.09);
     box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
     backdrop-filter: blur(13px);
     -webkit-backdrop-filter: blur(13px);
@@ -80,8 +81,8 @@ header {
 }
 
 button.pulsante{
-    width: 355px;
-    background: rgba(255, 255, 255, 0.11);
+    width: 200px;
+    background: rgba(255, 255, 255, 0.52);
     box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
     backdrop-filter: blur(13px);
     -webkit-backdrop-filter: blur(13px);
@@ -91,13 +92,15 @@ button.pulsante{
     margin-left: 10px;
     margin-top: 6px;
     cursor: pointer;
-    border-radius: 20px;
+    border-radius: 50px;
+    display: flex;
+    justify-content: center;
 }
 
 button.pulsante a{
     color: #fff;
     text-decoration: none;
-    font-size: 16px;
+    font-size: 14px;
 }
 
 textarea {
@@ -162,9 +165,9 @@ textarea {
     width: 355px;
     background: rgba(255, 255, 255, 0.11);
     box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
-    backdrop-filter: blur(13px);
-    -webkit-backdrop-filter: blur(13px);
-    border: 1px solid rgba(255, 255, 255, 0.19);
+    backdrop-filter: blur(4.3px);
+    -webkit-backdrop-filter: blur(4.3px);
+    border: 1px solid rgba(255, 255, 255, 0.3);
     font-family: "roc-grotesk", sans-serif;
     padding: 10px;
     margin-left: 10px;
