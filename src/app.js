@@ -1,9 +1,11 @@
-const API_KEY = "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";
+const API_KEY = "myAPIKEY";
 const submitIcon = document.querySelector("#submit-icon");
-const inputElement = document.querySelector("input");
+const inputElement = document.querySelector("#input");
 const imageSection = document.querySelector(".images-section");
 
 const getImages = async() => {
+
+  submitIcon.innerHTML = "Loading ..."
   const options = {
     method: "POST",
     headers: {
@@ -32,6 +34,7 @@ const getImages = async() => {
       imageContainer.append(imageElement); 
 
       imageSection.append(imageContainer);
+      submitIcon.innerHTML = "Generate image"
     })
 
   } catch (error){

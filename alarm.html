@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Alarm Clock</title>
+  <link rel="stylesheet" href="src/style.css">
+  <link rel="stylesheet" href="https://use.typekit.net/cih6cez.css">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+
+<body>
+  
+  <div id="container">
+
+    <div class="wrapper">
+      <!-- <img src="src/img/alarm-clock-svgrepo-com.svg" alt="clock" width="50"> -->
+      <h1>00:00:00 PM</h1>
+      <div class="content">
+        <div class="column">
+          <select>
+          <option value="Hour" selected hidden>Hour</option>
+          </select>
+        </div>
+    
+        <div class="column">
+          <select>
+          <option value="Minute" selected hidden>Minute</option>
+          </select>
+        </div>
+    
+        <div class="column">
+          <select>
+          <option value="AM/PM" selected hidden>AM/PM</option>
+          </select>
+        </div>
+      </div>
+      <button class="pulsante">Set Alarm</button>
+    </div>
+
+    <footer class="bottom-navigation">
+        <nav>
+            <ul>
+                <li><a href="index.html">Dashboard</a></li>
+                <li><a href="alarm.html">Alarm</a></li>
+            </ul>
+        </nav>
+    </footer>
+</div>
+
+  <script src="src/alarm.js"></script>
+
+</body>
+</html>

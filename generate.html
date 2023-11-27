@@ -3,20 +3,19 @@
 <head>
     <meta charset="UTF-8">
     <title>App</title>
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="src/style.css">
     <link rel="stylesheet" href="https://use.typekit.net/cih6cez.css">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 </head>
 <body>
-    <!---
-    <section class="images-section"></section>
+   
     <section class="bottom-section">
       <div class="input-container">
-        <input placeholder="What would you like to see today ?">
-        <button id="submit-icon">Generate image</button>
+        <!-- <input placeholder="What would you like to see today ?"> -->
+        <!-- <button id="submit-icon">Generate image</button> -->
       </div>
     </section>
-    -->
+   
 
     <div id="container">
         <header>
@@ -25,20 +24,20 @@
         </header>
 
     <!-- Campo di testo multi-linea -->
-    <textarea placeholder="Inserisci il testo"></textarea>
+    <textarea placeholder="Insert text..." id="input"></textarea>
 
-    <button class="pulsante"><a href="#">Genera immagine</a></button>
-
+    <button class="pulsante" id="submit-icon">Generate image</button><br/>
+    <section class="images-section"></section>
     <footer class="bottom-navigation">
         <nav>
           <ul>
             <li><a href="index.html">Dashboard</a></li>
-            <li><a href="sveglia.html">Sveglia</a></li>
+            <li><a href="alarm.html">Alarm</a></li>
           </ul>
         </nav>
     </footer>
     </div>
 
-  <script src="app.js"></script>
+  <script src="src/app.js"></script>
 </body>
 </html>

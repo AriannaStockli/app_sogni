@@ -3,7 +3,7 @@
 <head>
   <meta charset="UTF-8">
   <title>AI Image Generator</title>
-  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="src/style.css">
   <link rel="stylesheet" href="https://use.typekit.net/cih6cez.css">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
 </head>
@@ -20,29 +20,28 @@
   -->
 
   <div id="container">
+    <header>
+        <h1>Hi Arianna</h1>
+        <div id="profile">A</div>
+    </header>
 
-    <div id="clock">10:00</div>
+    <div class="description">
+    <p>I dreamt I was in a green meadow, and suddenly a friendly dog transformed into a flying one. It soared happily above me with its ears flapping, like a little four-legged airplane. It was a truly bizarre but captivating dream!</p>
+    </div>
 
-    <button id="stopButton" onclick="stopSound()">Interrompi</button>
-    <audio id="alarmSound" src="alarm.mp3"></audio>
+    <img src="src/img/img_2.png" width="200">
 
     <footer class="bottom-navigation">
         <nav>
-            <ul>
-                <li><a href="index.html">Dashboard</a></li>
-                <li><a href="sveglia.html">Sveglia</a></li>
-            </ul>
+          <ul>
+            <li><a href="index.html">Dashboard</a></li>
+            <li><a href="alarm.html">Alarm</a></li>
+          </ul>
         </nav>
     </footer>
 </div>
   
-  <script src="app.js"></script>
-  <script src="sveglia.js"></script>
-
-<script>
-    
-
-</script>
-
+  <script src="src/app.js"></script>
 </body>
+
 </html>
